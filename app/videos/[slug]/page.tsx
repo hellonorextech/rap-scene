@@ -195,7 +195,7 @@ export default async function MusicVideoPage({
                 rel="noopener noreferrer"
                 className="inline-block bg-black px-5 py-3 text-sm font-black text-white transition hover:bg-gray-800"
               >
-                WATCH ON YOUTUBE ↗
+                WATCH ON YOUTUBE
               </a>
             </div>
           )}
