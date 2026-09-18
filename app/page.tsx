@@ -348,6 +348,13 @@ export default async function HomePage() {
             >
               News
             </a>
+
+            <Link
+  href="/about"
+  className="transition hover:underline"
+>
+  About
+</Link>
           </nav>
 
           {/* MOBILE NAVIGATION */}
