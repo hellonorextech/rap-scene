@@ -13,6 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  verification: {
+    google: "Tk2EDIVtBqjGVhMUrzBKGt0Qse-DbKSgsxp-MMricMw",
+  },
+
   metadataBase: new URL("https://rap-scene.vercel.app"),
 
   title: {
