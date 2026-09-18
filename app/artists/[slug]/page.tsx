@@ -568,11 +568,18 @@ export default async function ArtistProfilePage({
       <header className="border-b-2 border-black bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-5 sm:py-5 md:px-8">
           <Link
-            href="/"
-            className="text-xl font-black tracking-[-0.08em] sm:text-2xl md:text-3xl"
-          >
-            RAP SCENE
-          </Link>
+  href="/"
+  className="shrink-0 flex items-center"
+>
+  <Image
+    src="/images/logo.png"
+    alt="RAP SCENE"
+    width={200}
+    height={70}
+    className="h-10 w-auto object-contain"
+    priority
+  />
+</Link>
 
           <nav className="hidden items-center gap-6 text-xs font-black uppercase tracking-wider md:flex">
             <Link

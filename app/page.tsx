@@ -312,11 +312,18 @@ export default async function HomePage() {
           {/* LOGO */}
 
           <Link
-            href="/"
-            className="shrink-0 text-xl font-black tracking-tighter sm:text-2xl"
-          >
-            RAP SCENE
-          </Link>
+  href="/"
+  className="shrink-0 flex items-center"
+>
+  <Image
+  src="/images/logo.png"
+  alt="RAP SCENE"
+  width={200}
+  height={70}
+  className="h-14 w-auto object-contain"
+  priority
+/>
+</Link>
 
           {/* DESKTOP NAVIGATION */}
 
@@ -743,13 +750,6 @@ export default async function HomePage() {
               <h3 className="text-xl font-black uppercase tracking-tight sm:text-2xl">
                 Music Videos
               </h3>
-
-              <Link
-                href="/videos/test-song-official-music-video"
-                className="text-xs font-bold uppercase hover:underline sm:text-sm"
-              >
-                View Video
-              </Link>
 
             </div>
 
