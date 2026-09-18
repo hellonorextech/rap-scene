@@ -2,13 +2,13 @@ export default function AboutPage() {
   return (
     <main className="min-h-screen bg-black text-white">
       {/* Hero */}
-      <section className="border-b border-white/10 px-6 py-20 sm:px-10 lg:px-20">
-        <div className="mx-auto max-w-5xl">
+      <section className="border-b border-white/10 px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
+        <div className="mx-auto max-w-6xl">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-white/50">
             About RAP SCENE
           </p>
 
-          <h1 className="text-4xl font-black uppercase tracking-tight sm:text-6xl">
+          <h1 className="text-4xl font-black uppercase tracking-tight sm:text-6xl lg:text-7xl">
             The Music.
             <br />
             The Artists.
@@ -16,7 +16,7 @@ export default function AboutPage() {
             The Culture.
           </h1>
 
-          <p className="mt-8 max-w-3xl text-base leading-8 text-white/65 sm:text-lg">
+          <p className="mt-7 max-w-3xl text-base leading-8 text-white/65 sm:mt-8 sm:text-lg">
             RAP SCENE is a digital platform dedicated to documenting,
             discovering, and celebrating rap and hip-hop music in the
             Philippines.
@@ -25,15 +25,15 @@ export default function AboutPage() {
       </section>
 
       {/* About */}
-      <section className="px-6 py-16 sm:px-10 lg:px-20">
-        <div className="mx-auto grid max-w-5xl gap-12 md:grid-cols-2">
+      <section className="px-5 py-14 sm:px-8 sm:py-16 lg:px-12 lg:py-20">
+        <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-2 md:gap-16 lg:gap-24">
           <div>
             <h2 className="text-2xl font-bold uppercase sm:text-3xl">
               Our Purpose
             </h2>
           </div>
 
-          <div className="space-y-6 text-sm leading-8 text-white/65 sm:text-base">
+          <div className="space-y-5 text-sm leading-8 text-white/65 sm:text-base">
             <p>
               RAP SCENE was created to give greater visibility to the artists,
               songs, and movements shaping Filipino rap and hip-hop.
@@ -51,17 +51,17 @@ export default function AboutPage() {
       </section>
 
       {/* Rankings */}
-      <section className="border-y border-white/10 bg-white/[0.03] px-6 py-16 sm:px-10 lg:px-20">
-        <div className="mx-auto max-w-5xl">
+      <section className="border-y border-white/10 bg-white/[0.03] px-5 py-14 sm:px-8 sm:py-16 lg:px-12 lg:py-20">
+        <div className="mx-auto max-w-6xl">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-white/40">
             Rankings
           </p>
 
-          <h2 className="text-3xl font-black uppercase sm:text-4xl">
+          <h2 className="text-3xl font-black uppercase sm:text-4xl lg:text-5xl">
             How Our Rankings Work
           </h2>
 
-          <div className="mt-8 max-w-4xl space-y-5 text-sm leading-8 text-white/65 sm:text-base">
+          <div className="mt-7 max-w-4xl space-y-5 text-sm leading-8 text-white/65 sm:mt-8 sm:text-base">
             <p>
               RAP SCENE rankings are intended to reflect the performance and
               popularity of artists and music using publicly available chart
@@ -92,17 +92,17 @@ export default function AboutPage() {
       </section>
 
       {/* What You'll Find */}
-      <section className="px-6 py-16 sm:px-10 lg:px-20">
-        <div className="mx-auto max-w-5xl">
+      <section className="px-5 py-14 sm:px-8 sm:py-16 lg:px-12 lg:py-20">
+        <div className="mx-auto max-w-6xl">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-white/40">
             Explore RAP SCENE
           </p>
 
-          <h2 className="text-3xl font-black uppercase sm:text-4xl">
+          <h2 className="text-3xl font-black uppercase sm:text-4xl lg:text-5xl">
             What You&apos;ll Find
           </h2>
 
-          <div className="mt-10 grid gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 sm:grid-cols-2">
+          <div className="mt-8 grid overflow-hidden rounded-2xl border border-white/10 bg-white/10 sm:grid-cols-2">
             {[
               {
                 title: "Artists",
@@ -131,7 +131,7 @@ export default function AboutPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="bg-black p-7 transition hover:bg-white/[0.04]"
+                className="border-b border-white/10 bg-black p-6 transition hover:bg-white/[0.04] sm:p-7"
               >
                 <h3 className="text-lg font-bold uppercase">
                   {item.title}
@@ -147,17 +147,17 @@ export default function AboutPage() {
       </section>
 
       {/* Vision */}
-      <section className="border-t border-white/10 px-6 py-20 sm:px-10 lg:px-20">
-        <div className="mx-auto max-w-5xl">
+      <section className="border-t border-white/10 px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
+        <div className="mx-auto max-w-6xl">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-white/40">
             Our Vision
           </p>
 
-          <h2 className="text-3xl font-black uppercase sm:text-4xl">
+          <h2 className="text-3xl font-black uppercase sm:text-4xl lg:text-5xl">
             Built for the Scene
           </h2>
 
-          <p className="mt-8 max-w-4xl text-sm leading-8 text-white/65 sm:text-base">
+          <p className="mt-7 max-w-4xl text-sm leading-8 text-white/65 sm:mt-8 sm:text-base">
             RAP SCENE aims to become a trusted destination for Filipino rap
             and hip-hop—connecting artists, listeners, and the wider music
             community through discovery and information.
@@ -169,7 +169,7 @@ export default function AboutPage() {
             emerging artists a place to be discovered.
           </p>
 
-          <div className="mt-12 border-l-2 border-white pl-6">
+          <div className="mt-10 border-l-2 border-white pl-5 sm:mt-12 sm:pl-6">
             <p className="text-xl font-black uppercase sm:text-2xl">
               RAP SCENE
             </p>
