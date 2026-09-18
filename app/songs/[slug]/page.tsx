@@ -133,47 +133,7 @@ export default async function SongPage({ params }: PageProps) {
 
   return (
     <main className="min-h-screen bg-white text-black">
-      {/* HEADER */}
-      <header className="border-b border-black">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 lg:px-8">
-          <Link
-            href="/"
-            className="text-2xl font-black tracking-tight sm:text-3xl"
-          >
-            RAP SCENE
-          </Link>
-
-          <nav className="flex items-center gap-4 text-sm font-bold sm:gap-6">
-            <Link
-              href="/"
-              className="transition hover:opacity-60"
-            >
-              HOME
-            </Link>
-
-            <Link
-              href="/charts"
-              className="transition hover:opacity-60"
-            >
-              CHARTS
-            </Link>
-
-            <Link
-              href="/artists"
-              className="transition hover:opacity-60"
-            >
-              ARTISTS
-            </Link>
-
-            <Link
-              href="/news"
-              className="transition hover:opacity-60"
-            >
-              NEWS
-            </Link>
-          </nav>
-        </div>
-      </header>
+      
 
       {/* SONG */}
       <section className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-16 lg:px-8">

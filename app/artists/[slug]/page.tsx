@@ -564,77 +564,7 @@ export default async function ArtistProfilePage({
 
   return (
     <main className="min-h-screen overflow-x-hidden bg-white text-black">
-      {/* HEADER */}
-      <header className="border-b-2 border-black bg-white">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-5 sm:py-5 md:px-8">
-          <Link
-  href="/"
-  className="shrink-0 flex items-center"
->
-  <Image
-    src="/images/logo.png"
-    alt="RAP SCENE"
-    width={200}
-    height={70}
-    className="h-10 w-auto object-contain"
-    priority
-  />
-</Link>
-
-          <nav className="hidden items-center gap-6 text-xs font-black uppercase tracking-wider md:flex">
-            <Link
-              href="/"
-              className="transition hover:underline"
-            >
-              Home
-            </Link>
-
-            <Link
-              href="/charts"
-              className="transition hover:underline"
-            >
-              Charts
-            </Link>
-
-            <Link
-              href="/artists"
-              className="transition hover:underline"
-            >
-              Artists
-            </Link>
-          </nav>
-
-          {/* MOBILE MENU */}
-          <details className="relative md:hidden">
-            <summary className="flex h-10 w-10 cursor-pointer list-none items-center justify-center border-2 border-black text-xl font-black [&::-webkit-details-marker]:hidden">
-              ☰
-            </summary>
-
-            <div className="absolute right-0 top-12 z-50 w-44 border-2 border-black bg-white shadow-xl">
-              <Link
-                href="/"
-                className="block border-b border-black px-4 py-4 text-xs font-black uppercase"
-              >
-                Home
-              </Link>
-
-              <Link
-                href="/charts"
-                className="block border-b border-black px-4 py-4 text-xs font-black uppercase"
-              >
-                Charts
-              </Link>
-
-              <Link
-                href="/artists"
-                className="block px-4 py-4 text-xs font-black uppercase"
-              >
-                Artists
-              </Link>
-            </div>
-          </details>
-        </div>
-      </header>
+      
 
       {/* ARTIST HERO */}
       <section className="border-b-2 border-black">

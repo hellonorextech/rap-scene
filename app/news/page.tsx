@@ -46,32 +46,7 @@ export default async function NewsPage() {
 
   return (
     <main className="min-h-screen bg-white text-neutral-950">
-      {/* HEADER */}
-      <header className="border-b border-neutral-200 bg-black text-white">
-        <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <Link
-            href="/"
-            className="inline-block text-sm font-bold text-neutral-400 transition hover:text-white"
-          >
-            ← RAP SCENE
-          </Link>
-
-          <div className="mt-8">
-            <p className="text-xs font-black uppercase tracking-[0.3em] text-neutral-400">
-              Latest Stories
-            </p>
-
-            <h1 className="mt-2 text-4xl font-black tracking-tight sm:text-6xl">
-              NEWS
-            </h1>
-
-            <p className="mt-4 max-w-2xl text-sm leading-6 text-neutral-400 sm:text-base">
-              The latest news, stories, releases, interviews, and
-              updates from the Filipino rap and hip-hop scene.
-            </p>
-          </div>
-        </div>
-      </header>
+      
 
       {/* CONTENT */}
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8">

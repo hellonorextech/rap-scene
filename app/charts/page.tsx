@@ -117,49 +117,7 @@ export default async function ChartsPage() {
 
   return (
     <main className="min-h-screen bg-white text-black">
-      {/* HEADER */}
-      <header className="border-b border-black bg-black text-white">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <Link
-            href="/"
-            className="text-2xl font-black tracking-[-0.06em] sm:text-3xl"
-          >
-            RAP SCENE
-          </Link>
-
-          <nav className="hidden items-center gap-7 text-sm font-bold uppercase tracking-wide md:flex">
-            <Link href="/" className="transition hover:text-gray-300">
-              Home
-            </Link>
-
-            <Link
-              href="/charts"
-              className="border-b-2 border-white pb-1"
-            >
-              Charts
-            </Link>
-
-            <Link href="/#artists" className="transition hover:text-gray-300">
-              Artists
-            </Link>
-
-            <Link href="/#music" className="transition hover:text-gray-300">
-              Music
-            </Link>
-
-            <Link href="/#news" className="transition hover:text-gray-300">
-              News
-            </Link>
-          </nav>
-
-          <Link
-            href="/"
-            className="text-xs font-bold uppercase tracking-widest md:hidden"
-          >
-            Home
-          </Link>
-        </div>
-      </header>
+      
 
       {/* TITLE */}
       <section className="border-b border-black bg-white">

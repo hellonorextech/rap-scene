@@ -63,50 +63,7 @@ export default async function ArtistsPage() {
 
   return (
     <main className="min-h-screen overflow-x-hidden bg-white text-black">
-      {/* HEADER */}
-      <header className="border-b border-black bg-white">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-5 sm:py-5 md:px-8">
-          <Link
-            href="/"
-            className="text-2xl font-black tracking-tighter sm:text-3xl md:text-4xl"
-          >
-            RAP SCENE
-          </Link>
-
-          <nav className="hidden items-center gap-7 text-sm font-bold uppercase tracking-wide md:flex">
-            <Link href="/" className="hover:underline">
-              Home
-            </Link>
-
-            <Link href="/charts" className="hover:underline">
-              Charts
-            </Link>
-
-            <Link href="/artists" className="border-b-2 border-black pb-1">
-              Artists
-            </Link>
-
-            <Link href="/#music" className="hover:underline">
-              Music
-            </Link>
-
-            <Link href="/#news" className="hover:underline">
-              News
-            </Link>
-          </nav>
-
-          <Link
-            href="/"
-            className="text-[10px] font-black uppercase tracking-widest sm:text-xs md:hidden"
-          >
-            Home
-          </Link>
-        </div>
-
-        <div className="border-t border-black bg-black px-4 py-2 text-center text-[9px] font-bold uppercase tracking-[0.2em] text-white sm:text-[10px] sm:tracking-[0.25em]">
-          Filipino Music • Hip-Hop • Culture
-        </div>
-      </header>
+      
 
       {/* TITLE */}
       <section className="border-b border-black">
