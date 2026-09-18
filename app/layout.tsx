@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-vercel-domain.vercel.app"),
+  metadataBase: new URL("https://rap-scene.vercel.app"),
 
   title: {
     default: "RAP SCENE",
