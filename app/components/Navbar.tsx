@@ -84,6 +84,7 @@ export default function Navbar() {
           </span>
         </button>
       </div>
+      
 
       {/* MOBILE NAVIGATION */}
       {menuOpen && (
